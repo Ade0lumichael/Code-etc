@@ -1,0 +1,50 @@
+html {
+    background-image: url(../IMGs/FALG.png);
+}
+
+.kenburns-right {
+	-webkit-animation: kenburns-right 5s ease-out both;
+	        animation: kenburns-right 5s ease-out both;
+}
+
+body {
+
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    padding-right: 20px;
+   }
+
+a {
+    text-decoration: none;
+    color: rgba(187, 182, 192, 0.952);
+}
+
+nav li a:hover {
+    color: rgba(57, 0, 110, 0.89);
+    border:rgba(103, 16, 185, 0.89);
+    border-style: double;
+    border-width: 5px;
+    font-size: 20px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+ul {
+    display: table-row;
+    display: ruby;
+    list-style: none;
+}

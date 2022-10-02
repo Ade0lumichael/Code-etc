@@ -1,0 +1,59 @@
+html{
+    background-image: url(../IMGs/FALG.png);
+}
+
+
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    padding-right: 10px;
+   }
+
+li a {
+    text-decoration: none;
+    color: rgba(187, 182, 192, 0.952);
+}
+
+nav li a:hover {
+    color: rgba(57, 0, 110, 0.89);
+    border:rgba(103, 16, 185, 0.89);
+    border-style: double;
+    border-width: 5px;
+    font-size: 20px;
+}
+
+h2{
+    background: rgba(255,255,255,0.3);
+box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+backdrop-filter: blur(4.2px);
+-webkit-backdrop-filter: blur(4.2px);
+border-radius: 10px;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+label  {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    margin-bottom: 10px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+
+}
+
+ul :nth-last-child(1) input{
+    display: block;
+}

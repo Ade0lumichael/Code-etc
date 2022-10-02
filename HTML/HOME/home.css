@@ -1,0 +1,66 @@
+html {
+    background-color: #1e1d1f;
+    font-family: sans-serif;
+    background-image: url(../IMGs/FALG.png);
+}
+
+.Main {
+    margin: auto;
+    width: 800px;
+    color: ghostwhite;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.content {
+    width: 600px;
+    float: left;
+    margin-top: 1px;
+    
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700px;
+    margin-bottom: -20px;
+}
+
+#sub {
+    
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+#quote {
+    font-weight: bolder;
+}
+blockquote {
+    border:rgb(255, 255, 255);
+    border-style: double;
+    border-width: 10px;
+    font-style: oblique;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a {
+    color: rgb(170, 4, 247);
+}
+aside {
+    float: left;
+    width: 200px;
+    margin-top: 1px;
+    line-height: 20px;
+
+}
+aside ul{
+    list-style: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 20px;
+}
+
+.content, aside {
+    height: auto;
+}
